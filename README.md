@@ -27,3 +27,43 @@ Path: exp7
 
 Experiment 8 - Responsive Newspaper Website using Bootstrap
 Path: exp8.html
+
+
+JavaScript Fundamentals 
+
+Experiment 9 - JS Basics and To-Do List
+Path: exp9
+
+Experiment 10 - JavaScript Error Handling and Validations  / Login Form
+Path: exp10
+
+React and Advanced Front-End
+
+Experiment 12 - Clinic/Health Management Front-End
+Path: exp12/clint001
+
+Experiment 13 - Back-End Application using Node.js (app.js) 
+Path: exp13
+
+Experiment 14 - Pharmacy Management System
+Path: exp14
+
+Experiment 15 - Travel Advisory WebApp Front-End (ReactJS) 
+Path: travel-advisory-app
+
+
+Next 2 exp ka alag se file hai 
+
+string_methods.html 
+array_methods.html 
+
+
+
+
+
+
+
+
+
+
+
