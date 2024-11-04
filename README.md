@@ -1,6 +1,6 @@
 
 
-##HTML Basics
+HTML Basics
 
 Experiment 1 - Profile Webpage
 Path: exp1.html
@@ -14,7 +14,7 @@ Path: exp3
 Experiment 4 - Class Timetable with Additional Elements
 Path: exp4.html
 
-##CSS Implementation
+CSS Implementation
 
 Experiment 5 - Inventory Management System
 Path: exp5
