@@ -54,8 +54,13 @@ Path: travel-advisory-app
 
 Next 2 exp ka alag se file hai 
 
-string_methods.html 
+string_methods.html
+
 array_methods.html 
+
+![View Counter](https://hits.sh/exams4p/IP.svg)
+
+![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=exams4p.IP)
 
 
 
