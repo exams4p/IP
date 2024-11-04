@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript String Methods</title>
+</head>
+<body>
+    <h1>JavaScript String Methods Demonstration</h1>
+    <pre id="output"></pre>
+
+    <script>
+        function displayOutput(message) {
+            const outputElement = document.getElementById('output');
+            outputElement.innerHTML += message + '\n';
+        }
+
+        let myString = "  Hello, JavaScript!  ";
+        displayOutput("Original String: " + myString);
+
+        let charAtIndex = myString.charAt(7);
+        displayOutput("Character at index 7: " + charAtIndex);
+
+        let concatenatedString = myString.concat(" Welcome to string methods.");
+        displayOutput("Concatenated String: " + concatenatedString);
+
+        let includesSubstring = myString.includes("JavaScript");
+        displayOutput("Does the string include 'JavaScript'? : " + includesSubstring);
+
+        let indexOfSubstring = myString.indexOf("Java");
+        displayOutput("Index of 'Java': " + indexOfSubstring);
+
+        let slicedString = myString.slice(2, 10);
+        displayOutput("Sliced String (2, 10): " + slicedString);
+
+        let splitArray = myString.split(" ");
+        displayOutput("Split String: " + splitArray);
+
+        let lowerCaseString = myString.toLowerCase();
+        displayOutput("Lowercase String: " + lowerCaseString);
+
+        let upperCaseString = myString.toUpperCase();
+        displayOutput("Uppercase String: " + upperCaseString);
+
+        let trimmedString = myString.trim();
+        displayOutput("Trimmed String: " + trimmedString);
+
+        let replacedString = myString.replace("JavaScript", "Programming");
+        displayOutput("Replaced String: " + replacedString);
+
+        let substring = myString.substring(2, 10);
+        displayOutput("Substring (2, 10): " + substring);
+    </script>
+</body>
+</html>
+
+
+   <!-- // To be done in Consol inspect karke and then javascript ke tab mai and then below commented code will help you to execute it step by step // -->
+
+<!-- 
+// String Initialization
+let myString = "  Hello, JavaScript!  ";
+console.log("Original String:", myString);
+
+// 1. charAt - Returns the character at the specified index
+let charAtIndex = myString.charAt(7);
+console.log("Character at index 7:", charAtIndex); // 'J'
+
+// 2. concat - Combines two or more strings
+let concatenatedString = myString.concat(" Welcome to string methods.");
+console.log("Concatenated String:", concatenatedString);
+
+// 3. includes - Determines whether one string contains another
+let includesSubstring = myString.includes("JavaScript");
+console.log("Does the string include 'JavaScript'? :", includesSubstring); // true
+
+// 4. indexOf - Returns the index of the first occurrence of a specified value
+let indexOfSubstring = myString.indexOf("Java");
+console.log("Index of 'Java':", indexOfSubstring); // 8
+
+// 5. slice - Extracts a section of a string and returns it as a new string
+let slicedString = myString.slice(2, 10);
+console.log("Sliced String (2, 10):", slicedString); // ' Hello, '
+
+// 6. split - Splits a string into an array of substrings
+let splitArray = myString.split(" ");
+console.log("Split String:", splitArray); // ['','Hello,','JavaScript!','','']
+
+// 7. toLowerCase - Converts the string to lowercase
+let lowerCaseString = myString.toLowerCase();
+console.log("Lowercase String:", lowerCaseString); // '  hello, javascript!  '
+
+// 8. toUpperCase - Converts the string to uppercase
+let upperCaseString = myString.toUpperCase();
+console.log("Uppercase String:", upperCaseString); // '  HELLO, JAVASCRIPT!  '
+
+// 9. trim - Removes whitespace from both ends of a string
+let trimmedString = myString.trim();
+console.log("Trimmed String:", trimmedString); // 'Hello, JavaScript!'
+
+// 10. replace - Replaces a specified value with another value in a string
+let replacedString = myString.replace("JavaScript", "Programming");
+console.log("Replaced String:", replacedString); // '  Hello, Programming!  '
+
+// 11. substring - Returns a part of the string between two specified indexes
+let substring = myString.substring(2, 10);
+console.log("Substring (2, 10):", substring); // ' Hello, ' -->
