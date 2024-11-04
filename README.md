@@ -58,9 +58,9 @@ string_methods.html
 
 array_methods.html 
 
-![View Counter](https://hits.sh/exams4p/IP.svg)
+[![Hits](https://hits.sh/github.com/exams4p/IP.svg?style=flat-square&extraCount=5&color=007ec6&logo=base64)](https://hits.sh/github.com/exams4p/IP/)
 
-![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=exams4p.IP)
+
 
 
 
