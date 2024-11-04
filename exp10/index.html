@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration and Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User Registration</h1>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                <small class="error-message" id="usernameError"></small>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <small class="error-message" id="emailError"></small>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <small class="error-message" id="passwordError"></small>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+
+        <h1>User Login</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="loginUsername">Username:</label>
+                <input type="text" id="loginUsername" required>
+                <small class="error-message" id="loginUsernameError"></small>
+            </div>
+            <div class="form-group">
+                <label for="loginPassword">Password:</label>
+                <input type="password" id="loginPassword" required>
+                <small class="error-message" id="loginPasswordError"></small>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+
+        <div id="currentDate"></div>
+        <div id="userList"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

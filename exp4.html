@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Timetable</title>
+    <style>
+        /* Inline CSS for basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f5;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header img {
+            max-width: 80px;
+            vertical-align: middle;
+        }
+        h1, h2 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        /* Styling the timetable */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #004080;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #004080;
+            color: white;
+        }
+        td {
+            background-color: #e6f2ff;
+        }
+        /* List styling */
+        .subjects-list {
+            list-style-type: disc;
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="school_logo.png" alt="School Logo">
+        <h1>Class Timetable and Information</h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Timetable Section -->
+        <section>
+            <h2>Weekly Class Timetable</h2>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>9:00 - 10:00</th>
+                    <th>10:00 - 11:00</th>
+                    <th>11:00 - 12:00</th>
+                    <th>1:00 - 2:00</th>
+                    <th>2:00 - 3:00</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>Math</td>
+                    <td>Physics</td>
+                    <td>History</td>
+                    <td>Computer Science</td>
+                    <td>Art</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Chemistry</td>
+                    <td>Math</td>
+                    <td>Physical Education</td>
+                    <td>Biology</td>
+                    <td>Physics</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>History</td>
+                    <td>Math</td>
+                    <td>Art</td>
+                    <td>Chemistry</td>
+                    <td>Computer Science</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Biology</td>
+                    <td>Physics</td>
+                    <td>Math</td>
+                    <td>Physical Education</td>
+                    <td>History</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Computer Science</td>
+                    <td>Chemistry</td>
+                    <td>Biology</td>
+                    <td>Math</td>
+                    <td>Physics</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Subjects List Section -->
+        <section>
+            <h2>Subjects Offered</h2>
+            <ul class="subjects-list">
+                <li>Mathematics</li>
+                <li>Physics</li>
+                <li>Chemistry</li>
+                <li>Biology</li>
+                <li>Computer Science</li>
+                <li>History</li>
+                <li>Physical Education</li>
+                <li>Art</li>
+            </ul>
+        </section>
+
+        <!-- Multimedia Section (Embedding a Video) -->
+        <section>
+            <h2>Class Introduction Video</h2>
+            <video width="320" height="240" controls>
+                <source src="https://www.youtube.com/watch?v=0_6AK52kSVQ" type="video/mp4">
+             <!--   <source src="class_intro.mp4" type="video/mp4"> -->  
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <!-- Frames Section (Displaying External Content) -->
+        <section>
+            <h2>External Resources</h2>
+            <iframe src="https://www.wikipedia.org" title="External Resource" width="100%" height="300"></iframe>
+        </section>
+
+        <!-- Feedback Form Section -->
+        <section>
+            <h2>Feedback Form</h2>
+            <form action="/submit_feedback" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+                <input type="submit" value="Submit Feedback">
+            </form>
+        </section>
+    </div>
+
+</body>
+</html>

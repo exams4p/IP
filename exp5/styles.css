@@ -1,0 +1,46 @@
+/* External CSS */
+.container {
+    max-width: 800px; /* Maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    background-color: #fff; /* White background for the container */
+    padding: 20px; /* Padding around content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+table {
+    width: 100%; /* Full-width table */
+    border-collapse: collapse; /* Remove spacing between cells */
+    margin-top: 20px; /* Margin on top of the table */
+}
+
+th, td {
+    border: 1px solid #ccc; /* Light grey border */
+    padding: 12px; /* Padding for table cells */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #3498db; /* Blue background for headers */
+    color: white; /* White text color for headers */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light background for even rows */
+}
+
+tr:hover {
+    background-color: #e1f5fe; /* Highlight row on hover */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+ul li {
+    background: #ecf0f1; /* Light grey background for list items */
+    margin: 5px 0; /* Space between list items */
+    padding: 10px; /* Padding for list items */
+    border-radius: 5px; /* Rounded corners for list items */
+}

@@ -1,0 +1,108 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+.navbar nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    padding: 2rem;
+    text-align: center;
+    background: #00796b;
+    color: #fff;
+}
+
+/* Products Section */
+.products {
+    padding: 2rem;
+}
+
+#searchInput {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.product-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.product-card {
+    padding: 1rem;
+    background-color: #f1f1f1;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* About Section */
+.about {
+    padding: 2rem;
+    background-color: #e0f7fa;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem;
+    background-color: #fce4ec;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea, .contact button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.contact button {
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0.7rem;
+    border-radius: 4px;
+}
+
+.contact button:hover {
+    background-color: #004d40;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar nav a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}

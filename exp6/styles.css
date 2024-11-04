@@ -1,0 +1,100 @@
+/* External CSS */
+body {
+    font-family: Arial, sans-serif; /* Font style */
+    margin: 0; /* No margin */
+    padding: 20px; /* Global padding */
+    background-color: #f4f4f4; /* Light background color */
+}
+
+/* Header Styles */
+header {
+    background-color: #3498db; /* Blue background for header */
+    color: white; /* White text color */
+    padding: 15px 20px; /* Padding for header */
+    text-align: center; /* Center text */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+nav ul li {
+    display: inline; /* Horizontal list */
+    margin: 0 15px; /* Space between items */
+}
+
+nav ul li a {
+    color: white; /* White text color */
+    text-decoration: none; /* No underline */
+    transition: color 0.3s; /* Smooth transition for color */
+}
+
+/* Pseudo-class for hover effect on links */
+nav ul li a:hover {
+    color: #f1c40f; /* Yellow color on hover */
+}
+
+/* Main Content Styles */
+main {
+    margin-top: 20px; /* Margin above main content */
+}
+
+.banner {
+    background-color: white; /* White background for banners */
+    padding: 15px; /* Padding inside banner */
+    margin: 15px 0; /* Margin between banners */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    transition: transform 0.3s; /* Smooth transition for scaling */
+}
+
+/* Pseudo-class for hover effect on banner */
+.banner:hover {
+    transform: scale(1.02); /* Scale up slightly on hover */
+}
+
+/* Banner Title Styles */
+.banner-title {
+    font-size: 1.5em; /* Larger font size for title */
+    margin: 0; /* No margin */
+}
+
+/* Button Styles */
+.btn {
+    background-color: #3498db; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding inside button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Pseudo-class for hover effect on button */
+.btn:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Analytics List Styles */
+.analytics-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.analytics-label {
+    font-weight: bold; /* Bold labels */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Center text */
+    margin-top: 20px; /* Margin above footer */
+    color: #777; /* Grey text color */
+}
+
+/* Pseudo-element for footer text */
+footer p::before {
+    content: "©"; /* Add copyright symbol */
+    font-weight: bold; /* Bold symbol */
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <h1>Pharmacy Management</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Welcome to Our Pharmacy</h2>
+        <p>Your health is our priority.</p>
+    </section>
+
+    <!-- Products Section with Search -->
+    <section id="products" class="products">
+        <h2>Available Products</h2>
+        <input type="text" id="searchInput" placeholder="Search products..." onkeyup="searchProducts()">
+        <div class="product-grid">
+            <div class="product-card">Paracetamol</div>
+            <div class="product-card">Ibuprofen</div>
+            <div class="product-card">Amoxicillin</div>
+            <div class="product-card">Cough Syrup</div>
+            <div class="product-card">Antibiotics</div>
+            <div class="product-card">Vitamin C</div>
+            <!-- Add more product cards as needed -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We provide high-quality medicines and health products to ensure your wellness.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <style>
+        /* Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #003366;
+            color: white;
+        }
+        .nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+        }
+        .nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #003366;
+        }
+        .section {
+            padding: 20px;
+            margin: 10px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        img.logo {
+            max-width: 100px;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #003366;
+            padding: 10px;
+            text-align: left;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <img src="college_logo.png" alt="College Logo" class="logo">
+        <h1>Welcome to XYZ College</h1>
+        <p>Your future begins here!</p>
+    </header>
+
+    <!-- Navigation with Anchors -->
+    <nav class="nav">
+        <a href="#about">About Us</a>
+        <a href="#courses">Courses</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About XYZ College</h2>
+        <p>XYZ College is dedicated to providing a world-class education. Our campus is located in the heart of the city, offering state-of-the-art facilities and a supportive learning environment.</p>
+        <p style="font-style: italic; color: gray;">"Educating minds, shaping futures."</p>
+    </section>
+
+    <!-- Courses Section with Lists -->
+    <section id="courses" class="section">
+        <h2>Courses Offered</h2>
+        <ul>
+            <li>Computer Science Engineering</li>
+            <li>Information Technology</li>
+            <li>Electrical Engineering</li>
+            <li>Mechanical Engineering</li>
+            <li>Civil Engineering</li>
+        </ul>
+    </section>
+
+    <!-- Faculty Section with Table -->
+    <section id="faculty" class="section">
+        <h2>Faculty Members</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Dr. John Smith</td>
+                <td>Computer Science</td>
+                <td>john.smith@xyzcollege.edu</td>
+            </tr>
+            <tr>
+                <td>Dr. Jane Doe</td>
+                <td>Information Technology</td>
+                <td>jane.doe@xyzcollege.edu</td>
+            </tr>
+            <tr>
+                <td>Prof. Michael Lee</td>
+                <td>Mechanical Engineering</td>
+                <td>michael.lee@xyzcollege.edu</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Section with Hyperlink -->
+    <section id="contact" class="section">
+        <h2>Contact Information</h2>
+        <p>Address: 123 College Avenue, City, Country</p>
+        <p>Email: <a href="mailto:info@xyzcollege.edu">info@xyzcollege.edu</a></p>
+        <p>Phone: +123-456-7890</p>
+    </section>
+
+</body>
+</html>
